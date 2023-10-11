@@ -33,6 +33,7 @@ import { CadastroComponent } from './views/cadastro/cadastro.component';
 import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
 import { MedicacoesComponent } from './views/medicacoes/medicacoes.component';
+import { ProntuarioMedicoComponent } from './prontuario-medico/prontuario-medico.component';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { MedicacoesComponent } from './views/medicacoes/medicacoes.component';
     HomePacienteComponent,
     MedicacoesComponent,
     ViewPerfilmedicoComponent,
+    ProntuarioMedicoComponent,
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,7 @@ import { HomeMedicoComponent } from './home-medico/home-medico.component';
 import { HomePacienteComponent } from './home-paciente/home-paciente.component';
 import { MedicacoesComponent } from './views/medicacoes/medicacoes.component';
 import { ViewPerfilmedicoComponent } from './view-perfilmedico/view-perfilmedico.component';
+import { ProntuarioMedicoComponent } from './prontuario-medico/prontuario-medico.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,8 @@ const routes: Routes = [
   {path: 'homeMedico', component: HomeMedicoComponent},
   {path: 'homePaciente', component: HomePacienteComponent},
   {path: 'medicacoes', component: MedicacoesComponent},
-  {path: 'homePaciente/perfilMedico', component: ViewPerfilmedicoComponent}
+  {path: 'homePaciente/perfilMedico', component: ViewPerfilmedicoComponent},
+  {path: 'homeMedico/prontuario', component: ProntuarioMedicoComponent}
 
 ];
 

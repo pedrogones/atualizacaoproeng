@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SharedService } from '../shared.service';
 
 @Component({
   selector: 'app-home-medico',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-medico.component.scss']
 })
 export class HomeMedicoComponent {
+
+  constructor(private sharedService: SharedService){
+
+  }
+
+
+  redirectPront(){
+    this.sharedService.redirectProntuario1();
+  }
 
 }

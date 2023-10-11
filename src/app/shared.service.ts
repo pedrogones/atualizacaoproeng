@@ -45,7 +45,9 @@ menuOpen$ = this.menuOpenSubject.asObservable();
   redirectPerfilMedico(){
     this.router.navigate(['homePaciente/perfilMedico'], {relativeTo: this.route})
   }
-
+  redirectProntuario1(){
+    this.router.navigate(['homeMedico/prontuario'], {relativeTo: this.route})
+  }
 
   openDialog(message: string): void {
 
